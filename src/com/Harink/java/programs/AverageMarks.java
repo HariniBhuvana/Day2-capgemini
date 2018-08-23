@@ -2,12 +2,11 @@ package com.Harink.java.programs;
 
 public class AverageMarks {
 	
-	public static int[][] findAverageAndTotal(int array[][]) {
-		int arrays[]=new int[10];
-	for(int i=0;i<3;i++) {
+	public static double[][] findAverageAndTotal(double array[][]) {
+			for(int i=0;i<3;i++) {
 		
-		int total =0;
-		int subtotal = 0;
+		double total =0;
+		double subtotal = 0;
 		for(int j=0;j<3;j++) {
 			
 			// System.out.print(array[i][j]+ " ");
